@@ -14,43 +14,31 @@
 </head>
 <body>
 
-
-
 <form method="post" id="js-convert-gbp">
     <input type="text" name="amount" placeholder="Enter amount to covert in GBP" class="form-control">
     <select id="ratesDropdown" name="currency" class="form-control">
         <option>Choose a rate to convert to</option>
-
-
     </select>
-    
     <button type="submit" class="btn btn-primary">Convert</button>
-
-
 </form>
-
 
 <p id="result"></p>
 
-
 <h2>1 <strong>GBP</strong> is equivalent to:</h2>
 <ul id="rates">
-
-
 </ul>
 
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="js/currencyConverter.js"></script>
     <script type="text/javascript" src="js/request.js"></script>
-      <script type="text/javascript" src="js/form.js"></script>
-       <script type="text/javascript" src="js/rateDefinitions.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript" src="js/rateDefinitions.js"></script>
 </body>
-    <div id="overlay">
-        <div class="inner">
+<div id="overlay">
+    <div class="inner">
         <h2>Retrieving latest exchange rates</h2>
         <h3>Please wait...</h3>
         <div class="loader">Loading...</div>

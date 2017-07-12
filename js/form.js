@@ -5,9 +5,9 @@ $(document).ready(function () {
         var target = event.target 
         var amount = target.amount.value
         var currency = target.currency.value
-         var convertedAmount = currencyConverter.convertTo(currency, amount)
+        var convertedAmount = currencyConverter.convertTo(currency, amount)
 
-         $("#result").append(amount + " GBP in " + currency + " is " + convertedAmount.toFixed(2))
+        $("#result").append(amount + " GBP in " + currency + " is " + convertedAmount.toFixed(2))
          
     } ) 
 

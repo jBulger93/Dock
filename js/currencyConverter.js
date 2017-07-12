@@ -3,7 +3,6 @@ function CurrencyConverter () {
 
 }
 
-
 CurrencyConverter.prototype = {
   getRates: function () {
       return this._rates
